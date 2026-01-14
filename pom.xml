@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- 必须的核心配置项 -->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.yourpackage</groupId> <!-- 你的包名，比如com.student -->
+    <artifactId>tangligang</artifactId> <!-- 项目名，和你的项目名一致 -->
+    <version>1.0-SNAPSHOT</version> <!-- 版本号，默认1.0-SNAPSHOT即可 -->
+
+    <!-- 依赖配置 -->
+    <dependencies>
+        <!-- MySQL 8.0.11驱动依赖 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+</project>
